@@ -48,9 +48,8 @@ function playGame(playerInput){
     else if(argComputerMove == argPlayerMove){
       return 'Remis!';
     }
-
     else{    
-      printMessage('Tym razem przegrywasz! :( ');     
+      printMessage('Tym razem przegrywasz! :(');     
     }
   }
 
