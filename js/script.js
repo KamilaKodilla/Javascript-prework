@@ -58,15 +58,15 @@ function playGame(playerInput){
 }
 
 function buttonClicked(){
-  }
-document.getElementById('buttons play-rock').addEventListener('click', function(){
-  playGame(1);
+}
+document.getElementById('buttons play-rocks').addEventListener('click', function(){
+playGame(1);
 });
 
 document.getElementById('buttons play-paper').addEventListener('click', function(){
-  playGame(2);
+playGame(2);
 });
 
 document.getElementById('buttons play-scissors').addEventListener('click', function(){
-  playGame(3);
+playGame(3);
 });
