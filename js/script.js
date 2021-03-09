@@ -49,7 +49,7 @@ function playGame(playerInput){
       return 'Remis!';
     }
     else{    
-      printMessage('Tym razem przegrywasz! :(');     
+      return('Tym razem przegrywasz! :(');     
     }
   }
 
@@ -59,14 +59,14 @@ function playGame(playerInput){
 
 function buttonClicked(){
 }
-document.getElementById('buttons play-rocks').addEventListener('click', function(){
+document.getElementById('play-rock').addEventListener('click', function(){
 playGame(1);
 });
 
-document.getElementById('buttons play-paper').addEventListener('click', function(){
+document.getElementById('play-paper').addEventListener('click', function(){
 playGame(2);
 });
 
-document.getElementById('buttons play-scissors').addEventListener('click', function(){
+document.getElementById('play-scissors').addEventListener('click', function(){
 playGame(3);
 });
